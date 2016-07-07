@@ -1,0 +1,19 @@
+<Alloy>
+	<TabGroup>
+		<Tab id="tab_1" title="Tab View 1 tab" icon="KS_nav_ui.png">
+			<Window title="Tab View One" class="container">
+				<Button id="open_button">
+					Open Child Window
+				</Button>
+			</Window>
+		</Tab>
+		<Tab id="tab_2" title="Tab View 2 tab" icon="KS_nav_views.png">
+			<Window title="Tab View Two" class="container">
+				<Label>I am Window 2</Label>
+			</Window>
+		</Tab>
+	</TabGroup>
+	<Window id="child_window" title="Child Window">
+		<Label top="20">Child Window Label</Label>
+	</Window>
+</Alloy>
