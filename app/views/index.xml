@@ -1,19 +1,37 @@
 <Alloy>
-	<TabGroup>
-		<Tab id="tab_1" title="Tab View 1 tab" icon="KS_nav_ui.png">
-			<Window title="Tab View One" class="container">
-				<Button id="open_button">
-					Open Child Window
-				</Button>
-			</Window>
-		</Tab>
-		<Tab id="tab_2" title="Tab View 2 tab" icon="KS_nav_views.png">
-			<Window title="Tab View Two" class="container">
-				<Label>I am Window 2</Label>
-			</Window>
-		</Tab>
-	</TabGroup>
-	<Window id="child_window" title="Child Window">
-		<Label top="20">Child Window Label</Label>
-	</Window>
+		<TabGroup>
+			<Tab id="tab_1" title="Tab 1 tab" icon="KS_nav_ui.png">
+				<Window title="Tab View Home" class="container">
+					<Button id="open_button_1">
+						Child Menu Selection 1 Window
+					</Button>
+					<Button id="open_button_2">
+						Child Menu Selection 2 Window
+					</Button>
+					<Button id="open_button_3">
+						Child Menu Selection 3 Window
+					</Button>
+					<Button id="open_button_4">
+						Child Menu Selection 4 Window
+					</Button>
+				</Window>
+			</Tab>
+			<Tab id="tab_2" title="Tab 2 tab" icon="KS_nav_views.png">
+				<Window title="Tab View Location" class="container">
+					<Label>I am Window 2</Label>
+				</Window>
+			</Tab>
+		</TabGroup>
+		<Window id="child_window_1" title="Child Window">
+			<Label top="20">Child Window Menu Label 1</Label>
+		</Window>
+		<Window id="child_window_2" title="Child Window">
+			<Label top="20">Child Window Menu Label 2</Label>
+		</Window>
+		<Window id="child_window_3" title="Child Window">
+			<Label top="20">Child Window Menu Label 3</Label>
+		</Window>
+		<Window id="child_window_4" title="Child Window">
+			<Label top="20">Child Window Menu Label 4</Label>
+		</Window>
 </Alloy>
